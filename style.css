@@ -1,0 +1,43 @@
+﻿header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background: #fff;
+    background-color: #ffffffbb
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #262626;
+    color: #fff;
+}
+.banner {
+    background: url("https://github.com/antonio813/casa_allende/blob/main/banner.jpeg?raw=true") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
